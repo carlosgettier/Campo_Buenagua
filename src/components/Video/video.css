@@ -4,8 +4,11 @@ video {
   margin-right: auto;
   margin-top: 1%;
 }
+#video {
+  margin-top: 0%;
+}
 @media (max-width: 600px) {
   video {
-    margin-top: 10%;
+    margin-top: 6%;
   }
 }
