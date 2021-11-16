@@ -1,0 +1,32 @@
+.barra-color {
+  background-color: rgba(0, 0, 0, 0.774);
+  width: 90%;
+
+  margin-left: 5%;
+  position: absolute;
+  z-index: 1;
+}
+a {
+  color: white;
+}
+.buenagua {
+  width: 45%;
+}
+.lista {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.lista-a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+.lista-a:hover {
+  color: white;
+}
+@media (max-width: 600px) {
+  .lista-a {
+    font-size: 15px;
+  }
+}
