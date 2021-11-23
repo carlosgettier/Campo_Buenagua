@@ -17,6 +17,7 @@
   text-align: left;
   margin-top: 2%;
   margin-bottom: 2%;
+  font-family: "Merriweather", serif;
 }
 .contenedor-ubicacion a {
   text-decoration: none;
@@ -35,6 +36,7 @@
   margin-right: auto;
   margin-top: 3%;
   text-decoration: underline;
+  font-family: "Merriweather", serif;
 }
 iframe {
   width: 70%;
