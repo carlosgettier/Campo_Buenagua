@@ -15,10 +15,10 @@ export const NavBar = () => {
             {/* <div className="collapse navbar-collapse contenedor-barra  " id="navbarNav"> */}
             <ul className=" lista">
                 <li className="nav-item">
-                    <Link className=" lista-a" aria-current="page" >BUENAGUA</Link>
+                    <Link className=" lista-a" aria-current="page" >BUENAGUA EN VENTA</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="ubicacion" className=" lista-a" aria-current="page" >UBICACION</Link>
+                    <Link to="ubicacion" className=" lista-a" aria-current="page" >UBICACIÓN</Link>
                 </li>
                 <li className="nav-item">
                     <Link to="contacto" className=" lista-a" aria-current="page" >CONTACTOS</Link>
