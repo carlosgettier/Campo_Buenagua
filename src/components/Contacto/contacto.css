@@ -44,6 +44,7 @@ form {
   width: 100%;
   font-size: 30px;
 }
+
 @media (max-width: 600px) {
   .formulario {
     margin-top: 3%;

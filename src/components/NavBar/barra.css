@@ -1,11 +1,11 @@
 .barra-color {
   background-color: rgba(0, 0, 0, 0.774);
-  width: 90%;
+  width: 100%;
   height: 60px;
-  margin-left: 5%;
 }
 a {
   color: white;
+  cursor: pointer;
 }
 .buenagua {
   width: 45%;
