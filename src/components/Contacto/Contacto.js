@@ -31,9 +31,9 @@ export const Contacto = () => {
             mensaje: mensaje.mensaje,
         };
         // YOUR EMAIL.JS API KEY IN FORMAT user_xxxxxxxxxxxxxxxxxx
-        let API_KEY = "user_s8YdpjIN1qpsJxtl3uuz5";
+        let API_KEY = "user_DOlD15FvTqQobcVOJFVeO";
         // YOUR EMAIL.JS TEMPLATE ID
-        let TEMPLATE_ID = "contactForm2";
+        let TEMPLATE_ID = "template_yf2aclj";
 
         emailjs.send("default_service", TEMPLATE_ID, template_params, API_KEY).then(
             function (response) {
