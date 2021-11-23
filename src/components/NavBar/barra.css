@@ -13,8 +13,10 @@ a {
 .lista {
   width: 100%;
   display: flex;
+  padding-left: 0%;
   justify-content: space-around;
   padding-top: 14px;
+  list-style: none;
 }
 .lista-a {
   font-size: 25px;
@@ -27,7 +29,7 @@ a {
 }
 @media (max-width: 600px) {
   .lista-a {
-    font-size: 15px;
+    font-size: 10px;
   }
   .barra-color {
     height: 50px;
