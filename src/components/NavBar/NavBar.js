@@ -1,6 +1,7 @@
 import React from 'react'
 import './barra.css'
 import { Link } from 'react-scroll'
+import pdf from '../../assets/ficha.pdf'
 
 export const NavBar = () => {
     return (
@@ -15,7 +16,7 @@ export const NavBar = () => {
             {/* <div className="collapse navbar-collapse contenedor-barra  " id="navbarNav"> */}
             <ul className=" lista">
                 <li className="nav-item">
-                    <Link className=" lista-a" aria-current="page" >BUENAGUA EN VENTA</Link>
+                    <a href={pdf} target="_blank" className=" lista-a" aria-current="page" >BUENAGUA EN VENTA</a>
                 </li>
                 <li className="nav-item">
                     <Link to="ubicacion" className=" lista-a" aria-current="page" >UBICACIÓN</Link>
